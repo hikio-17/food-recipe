@@ -1,0 +1,103 @@
+:root {
+   --pr-color: #0c884c;
+   --sc-color: #eff5ed;
+}
+
+* {
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+body {
+   font-family: cursive;
+}
+
+/* Style Header App */
+
+.navbar {
+   background-color: var(--pr-color);
+}
+
+.navbar .navbar-toggler {
+   border: none;
+}
+
+.navbar-icon img {
+   color: #ffffff;
+   cursor: pointer;
+}
+
+
+/* Style Hero section */
+
+#hero {
+   margin-top: 100px;
+}
+
+#hero .image-hero img {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+}
+
+#hero .image-hero img {
+   box-shadow: 5px 5px 5px rgba(56, 55, 55, 0.251);
+}
+
+.image-hero span {
+   border-radius: 8px;
+   margin-top: -20px;
+   color: #ffffff;
+}
+
+.button-primary {
+   background-color: var(--pr-color);
+   color: #ffffff;
+   border: none;
+   border-radius: 100px;
+   padding: 5px;
+   width: 150px;
+}
+
+/* Style Recipe Section */
+
+#recipe {
+   background-color: var(--sc-color);
+}
+
+#recipe .card-image img {
+   width: 100%;
+}
+
+#recipe .card-item {
+   background-color: #ffffff;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.345);
+}
+
+/* Style Section Footer */
+#footer-app {
+   background-color: var(--pr-color);
+   color: #ffffff;
+}
+
+#footer-app .link-nav a{
+   text-decoration: none;
+   color: #ffffff;
+   margin-left: 30px;
+}
+
+#footer-app .link-nav a:hover {
+   text-decoration: underline;
+}
+
+#footer-app .navbar-brand {
+   font-size: 24px;
+}
+
+#footer-app .social-icon img {
+   width: 35px;
+   cursor: pointer;
+}
